@@ -1,0 +1,976 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F7F7F7;
+    margin: 0%;
+    padding: 0%;    
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-wrapper {
+    padding-bottom: 5%;
+}
+
+.hero-p {
+    padding: 0 5%;
+    padding-bottom: 10%;
+}
+
+.hero-image1 {
+    width: 70%;
+    /* display: block; */
+    height: auto;
+    margin: auto;
+}
+
+
+.intro img {
+    max-width: 100%;
+    display: block;
+    max-height: 100%;
+    justify-self: flex-start;
+
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #181E32;
+    text-align: center;
+    font-family: 'lato';
+    letter-spacing: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: #181E32;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'oswald';
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'oswald';
+    font-weight: 800;
+    font-size: 30px;
+    color: #181E32;
+    margin: 0%;
+    padding-bottom: 3%;
+}
+
+h3 {
+    font-family: 'lato';
+    font-size: 10px;
+    color: #181E32;
+    margin-bottom: .8em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 5% 8%;
+    width: 100%;
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide-mobile {
+    display: none;
+    position: absolute;
+}
+
+.menu {
+    width: 20px;
+    display: inline-block;
+    left: 87%;
+    bottom: 92%;
+
+}
+
+.main-logo {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+
+}
+
+.logo {
+    width: 100%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.introtext {
+    padding: 0 5%;
+}
+
+.text-wrapper {
+    max-width: 100%;
+    padding: 5%;
+    text-align: center;
+}
+
+.hrstyle {
+    border: 3px solid #EAB347;
+    text-align: center;
+    width: 100%;
+}
+
+.cta-1 {
+    font-size: 12px;
+    text-decoration: none;
+    color: #181E32;
+    font-family: 'lato';
+}
+
+.cta_arrow {
+    width: 14px;
+    margin-top: 6px;
+    margin-bottom: -2px;
+    margin-left: 7px;
+}
+
+.cta-arrow {
+    padding-top: 5%;
+}
+
+
+.cta-arrow :hover{
+    opacity: .5;
+    transition: .5s ease;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    background-color: #D8D8D8;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+ul.social-links {
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+ul.social-links li {
+    display: inline-block;
+    width: auto;
+    margin: 0 10px;
+    transition: .3s ease;
+}
+
+ul.social-links li:hover {
+    opacity: .5;      
+}
+
+nav {
+    font-family: 'lato';
+    font-size: 14px;
+}
+
+
+nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+    padding-top: 3em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #EAB347;
+    cursor: pointer;
+}
+   
+   
+.exit-btn {
+    text-align: right;
+    margin-bottom: 1.7em;
+    padding: 0 2em;
+    transition: .5s ease;
+}
+
+.exit-btn img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.image-wrapper {
+    max-width: 100%;  
+}
+
+.text-wrapper {
+    max-width: 100%;
+    padding: 5%;
+}
+
+.left {
+    width: 100%;
+    
+}
+
+.right {
+    width: 100%;
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .main-logo {
+        position: relative;
+        display: inline-block;
+        width: 35%;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+
+    .introtext {
+        padding: 0 10%;
+    }
+
+    hr.hrstyle {
+        border: 3px solid #EAB347;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .hero-p {
+        padding: 0 10% 10%;
+    }
+
+    .uiux .text-wrapper {
+        max-width: 100%;
+        padding: 5% 10%;
+    }
+ 
+    .uiux .img{
+        display: block;
+    }
+
+    .uiux-img .image-wrapper{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .main-logo .logo {
+        width: 180px;
+    }
+
+    .introtext {
+        padding: 0 10%;
+    }
+
+    hr.hrstyle {
+        border: 3px solid #EAB347;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0%;
+    }
+
+    .hero-p {
+        padding: 0 10% 10%;
+    }
+
+    .uiux .text-wrapper {
+        max-width: 100%;
+        padding: 5% 10%;
+    }
+ 
+    .uiux .img{
+        display: block;
+    }
+
+    .uiux-img .image-wrapper{
+        display: block;
+    }
+
+    .footer-container h3 {
+        font-size: 12px;
+    }
+ 
+}
+
+@media only screen and (min-width: 992px) {
+    .show-desktop {
+        display: flex;
+        top: 37%;
+        /* float: right; */
+        right: 5%;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    header {
+        padding: 0%;
+    }
+
+    .container {
+        position: relative;
+        padding: 5% 5%;
+        width: 100%;
+        
+    }
+
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        padding-top: 0;
+    }
+
+    nav ul li {
+        float: right;
+        z-index: 1;
+        padding: 0 20px 0 20px;
+    }
+
+    nav ul li:nth-child(5) {
+        padding-right: 0%;
+        text-align: left;
+    }
+
+    nav ul li a {
+        color: #181E32;
+        background-color: inherit;
+        text-align: right;
+        padding: 1em 2em;
+        transition: .5s ease;
+        cursor: pointer;
+
+    }
+
+    nav ul li a :hover {
+        color: #EAB347;
+         cursor: pointer;
+    }
+
+
+    .left {
+        float: left;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 50%;
+        
+    }
+    
+    .right {
+        float: right;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 50%;
+       
+    }
+
+    .intro {
+        padding: 0 5% 0;
+        align-items: center;
+        position: relative;
+        height: auto;
+    }
+
+    .text-wrapper {
+        max-width: 50%;
+        float: right;
+    }
+
+    .exit-btn {
+        display: none;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    header {
+        padding-bottom: 3%;
+    }
+
+    .logo {
+        width: 200px;
+        float: left; 
+    }
+
+    .hero-wrapper {
+        padding-bottom: 5%;
+        height: fit-content;
+        display: flex;
+    }
+
+    .hero-image1 {
+        width: 50%;
+        float: left;
+        height: auto;
+        padding-top: 0%;
+        margin-left: 0%;
+    }
+
+    .introtext {
+        width: 50%;
+        position: absolute;
+        right: 2%;
+        top: 15%;
+        padding-left: 8%;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin: 0em;
+        text-align: left;
+    }
+
+    .intro img {
+        max-width: 100%;
+        display: block;
+    }
+
+
+    .hero-p {
+        width: 100%;
+        background-color: #F1F1F1;
+        padding: 5% 0 5%;
+        left: 0px;
+    }
+
+    .hero-p p {
+        margin: 0;
+        padding: 0 10%;
+    }
+
+
+    hr.hrstyle {
+        margin-top: 10%;
+    }
+
+    .footer-container {
+        position: relative;
+        bottom: 0%;
+    }
+    
+    .projects {
+        width: 100%;
+        padding: 5% 0 0 0;
+        display: inline-flex;
+    }
+    
+    .uiux {
+        max-width: 100%;
+        display:inline-flex ;
+    }
+
+    .uiux .img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .uiux .img a {
+        padding: 0;
+        margin: 0%;
+    }
+
+    
+    .uiux-img {
+        width: 50%;
+        padding-left: 5%;
+    
+    }
+    .uiux-img .image-wrapper{
+        display: block;
+    }
+    
+    .uiux .text-wrapper {
+        width: 50%;
+        background-color: #F1F1F1;
+    }
+
+    .uiux .text-wrapper p {
+        text-align: left;
+    }
+
+    .uiux .text-wrapper h2 {
+        padding-top: 30%;
+        text-align: left;
+    } 
+
+    .uiux .text-wrapper .cta-arrow {
+        float: right;
+    }
+    
+    
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+
+    }
+
+    .dropbtn {
+        border: none;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+        padding: 5% 0;
+        margin-top: 0%; 
+
+    }
+
+    .dropdown-menu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #ddd;
+        position: absolute;}
+
+    .dropdown:hover .dropdown-menu {
+        position: absolute;
+        display: block;
+    }
+
+ 
+}
+
+@media only screen and (min-width: 1024px) {
+
+    header {
+        padding: 0%;
+    }
+
+    .container {
+        position: relative;
+        padding: 5% 5%;
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    
+    .show-desktop {
+        display: flex;
+        top: 37%;
+        /* float: right; */
+        right: 5%;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        padding-top: 0;
+    }
+
+    nav ul li {
+        float: right;
+        z-index: 1;
+        padding: 0 20px 0 20px;
+    }
+
+    nav ul li:nth-child(5) {
+        padding-right: 0%;
+        text-align: left;
+    }
+
+    nav ul li a {
+        color: #181E32;
+        background-color: inherit;
+        text-align: right;
+        padding: 1em 2em;
+        transition: .5s ease;
+        cursor: pointer;
+
+    }
+
+    nav ul li a :hover {
+        color: #EAB347;
+         cursor: pointer;
+    }
+
+    .intro {
+        padding: 0 5% 0;
+        align-items: center;
+        position: relative;
+        height: auto;
+    }
+
+    .text-wrapper {
+        max-width: 50%;
+        float: right;
+    }
+
+    .exit-btn {
+        display: none;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    header {
+        padding-bottom: 3%;
+    }
+
+    .logo {
+        width: 200px;
+        float: left; 
+    }
+
+   
+
+    .hero-wrapper {
+        padding-bottom: 5%;
+        height: fit-content;
+        display: flex;
+    }
+
+    .hero-image1 {
+        width: 50%;
+        float: left;
+        height: auto;
+        padding-top: 0%;
+    }
+
+    .introtext {
+        width: 50%;
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        padding-left: 10%;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin: 0em;
+        /* padding: 0 5% 0 0; */
+        text-align: left;
+    }
+
+    .intro img {
+        max-width: 100%;
+        display: block;
+    }
+
+
+    .hero-p {
+        width: 100%;
+        background-color: #F1F1F1;
+        padding: 5% 0 5%;
+        left: 0px;
+    }
+
+    .hero-p p {
+        margin: 0;
+        padding: 0 5%;
+    }
+
+
+    hr.hrstyle {
+        width: 111%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footer-container {
+        position: relative;
+        bottom: 0%;
+    }
+    
+    .projects {
+        width: 100%;
+        padding: 5% 0 0 0;
+        display: inline-flex;
+    }
+    
+    .uiux {
+        max-width: 100%;
+        display:inline-flex ;
+        padding: 5% 0;
+    }
+
+    .uiux .img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .uiux .img a {
+        padding: 0;
+        margin: 0%;
+    }
+
+    
+    .uiux-img {
+        width: 50%;
+        padding-left: 5%;
+    
+    }
+    .uiux-img .image-wrapper{
+        display: block;
+    }
+    
+    .uiux .text-wrapper {
+        width: 50%;
+        background-color: #F1F1F1;
+    }
+
+    .uiux .text-wrapper p {
+        text-align: left;
+    }
+
+    .uiux .text-wrapper h2 {
+        padding-top: 30%;
+        text-align: left;
+    } 
+
+    .uiux .text-wrapper .cta-arrow {
+        float: right;
+    }
+
+    .graphic {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        max-width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .graphic-img {
+        width: 50%;
+        padding-right: 5%;
+
+    }
+
+    .graphic-img .image-wrapper{
+        display: block;
+    }
+
+    .graphic .text-wrapper {
+        width: 50%;
+        background-color: #F1F1F1;
+    }
+
+    .graphic .text-wrapper p {
+        text-align: left;
+    }
+
+    .graphic .text-wrapper h2 {
+        padding-top: 30%;
+        text-align: right;
+    } 
+
+    .graphic .text-wrapper .cta-arrow {
+        float: right;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        flex-direction: column;
+
+    }
+
+    .dropbtn {
+        border: none;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+        padding: 5% 0;
+        margin-top: 0%; 
+
+    }
+
+    .dropdown-menu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #ddd;
+        position: absolute;}
+
+    .dropdown:hover .dropdown-menu {
+        position: absolute;
+        display: block;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .main-logo .logo {
+        width: 200px;
+    }
+
+    .introtext {
+        top: 20%;
+       
+    }
+
+    .hero-p p {
+        margin: 0;
+        padding: 0 15%;
+        line-height: 2em;
+    }
+
+
+ 
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .container {
+        width: 1440px;
+        margin: auto;
+
+    }
+ 
+    .intro {
+        width: 1440px;
+        margin: auto;   
+    }
+
+    .introtext {
+        right: 3%;
+    }
+ 
+
+    .main-logo .logo {
+        width: 220px;
+    }
+
+    .introtext {
+        top: 20%;
+       
+    }
+
+    .hero-p p {
+        width: 1440px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .hero-p .bodytext {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    h1 {
+        font-size: 70px;
+        line-height: 80px;
+        margin: 0em;
+        /* padding: 0 5% 0 0; */
+        text-align: left;
+    }
+
+    .uiux .text-wrapper h2 {
+        padding-top: 30%;
+        text-align: left;
+    }
+
+    .uiux {
+        margin: auto;
+    }
+
+    .uiux .uiux-img {
+        padding-left: 16%;
+    }
+
+
+
+ 
+}
+
+
+
+
+    
+
+
+
+
+
+
+

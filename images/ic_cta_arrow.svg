@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_cta_arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mark-Mobile-Home" transform="translate(-337.000000, -3421.000000)" fill="#EAB347" fill-rule="nonzero">
+            <g id="Video-Animation" transform="translate(0.000000, 2924.000000)">
+                <g id="CTA" transform="translate(244.000000, 497.000000)">
+                    <g id="ic_cta_arrow" transform="translate(93.000000, 0.000000)">
+                        <path d="M18.9973133,6.67463602 L12.5152461,0 L11.1219046,1.43399234 L17.3199406,7.81437548 L0,7.81437548 L0,9.84177778 L17.3199406,9.84177778 L11.1219046,16.2221609 L12.5152461,17.6551724 L18.9973133,10.9815172 C20.1503209,9.79371648 20.1503209,7.86145593 18.9973133,6.67463602" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

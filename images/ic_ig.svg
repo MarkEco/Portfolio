@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_ig</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Mark-Mobile-Home" transform="translate(-204.000000, -3599.000000)" stroke="#181E32" stroke-width="1.848">
+            <g id="Footer" transform="translate(0.000000, 3500.000000)">
+                <g id="Social" transform="translate(110.000000, 100.000000)">
+                    <g id="ic_ig" transform="translate(95.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="14.784" height="14.784" rx="3.696"></rect>
+                        <path d="M10.3488,6.926304 C10.5359081,8.1880974 9.8927327,9.42764187 8.75333033,10.0011349 C7.61392795,10.5746279 6.2351879,10.35277 5.33320896,9.45079104 C4.43123001,8.5488121 4.20937206,7.17007205 4.78286509,6.03066967 C5.35635813,4.8912673 6.5959026,4.24809189 7.857696,4.4352 C9.14610443,4.62625478 10.1577452,5.63789557 10.3488,6.926304 Z" id="Path"></path>
+                        <line x1="11.4576" y1="3.3264" x2="11.464992" y2="3.3264" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

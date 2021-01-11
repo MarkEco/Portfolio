@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_mail</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Mark-Mobile-Home" transform="translate(-109.000000, -3601.000000)" stroke="#181E32" stroke-width="1.848">
+            <g id="Footer" transform="translate(0.000000, 3500.000000)">
+                <g id="Social" transform="translate(110.000000, 100.000000)">
+                    <g id="ic_mail" transform="translate(0.000000, 2.000000)">
+                        <path d="M1.4784,0 L13.3056,0 C14.11872,0 14.784,0.66528 14.784,1.4784 L14.784,10.3488 C14.784,11.16192 14.11872,11.8272 13.3056,11.8272 L1.4784,11.8272 C0.66528,11.8272 0,11.16192 0,10.3488 L0,1.4784 C0,0.66528 0.66528,0 1.4784,0 Z" id="Path"></path>
+                        <polyline id="Path" points="14.784 1.4784 7.392 6.6528 0 1.4784"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
